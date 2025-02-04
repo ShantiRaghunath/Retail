@@ -1,0 +1,13 @@
+import pandas as pd  # For data manipulation and analysis
+import numpy as np  # For numerical computations
+import seaborn as sns  # For data visualization
+from datetime import datetime  # To handle date and time data
+import matplotlib.pyplot as plt  # For plotting static visualizations
+from sklearn.preprocessing import StandardScaler  # For scaling numerical features
+import time  # To measure time and performance
+from snowflake.snowpark.session import Session  # For Snowflake data connection and session management
+from plotly.subplots import make_subplots  # For creating subplots in Plotly
+import plotly.graph_objects as go  # To create interactive Plotly visualizations
+
+# Configure pandas to display more columns for better inspection of data
+pd.set_option('display.max_columns', 100)
